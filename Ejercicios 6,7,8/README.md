@@ -36,7 +36,7 @@ Se utiliza para ocultar lo complejo por detrás.
 Un ejemplo en donde se puede utilizar es un sistema que permite realizar pagos en línea, para lo cual es necesario interactuar con varios sistemas o cuales conllevan una cierta complejidad, por lo que interactuar con todos los subsistemas puede ser muy complicado. Por lo cual se implementará una fachada que permita exponer operaciones de alto nivel, las cuales se encarguen de interactuar con los subsistemas y abstrae a los programadores de la complejidad de interactuar con dichos sistemas.
 ---
 
-**Crea una pequeña aplicación implementando el patrón Singlenton y demuestra que, efectivamente, no crea instancias nuevas.**
+**Crea una pequeña aplicación implementando el patrón Singlenton y demuestra que, efectivamente, no crea instancias nuevas.**  
 El ejemplo consiste en un sistema gestor de base de datos (SGBD) del cual sólo puede haber una instancia.
 
 ```java
